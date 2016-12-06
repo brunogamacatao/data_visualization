@@ -1,0 +1,21 @@
+{
+  "name": "data_visualization",
+  "authors": [
+    "Bruno Gama Catao <brunogamacatao@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dimple": "^2.2.0",
+    "d3": "v3"
+  }
+}
