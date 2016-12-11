@@ -90,7 +90,8 @@ dataAnalysisApp.util.styleBarsDrawText = function (svg, yAxis, s, d) {
   var shape = d3.select(s);
 
   var textX = parseFloat(shape.attr("x")) + shape.attr("width") / 2;
-  var textY = parseFloat(shape.attr("y")) + (shape.attr("height") > 30 ? (shape.attr("height") / 2 + 8) : - 10);
+  var textY = parseFloat(shape.attr("y")) + (shape.attr("height") > 30 ? 
+    (shape.attr("height") / 2 + 8) : - 10);
 
   // Add some bar labels for the average handedness value
   svg.append("text")

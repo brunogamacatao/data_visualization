@@ -29,7 +29,8 @@ $(function() {
   var selectChartsByHandedness = function(evt) {
     evt && evt.preventDefault();
     $('#per_handedness_tab').parent().addClass('active');
-    $('#per_height_tab,#per_weight_tab,#conclusions_tab').parent().removeClass('active');
+    $('#per_height_tab,#per_weight_tab,#conclusions_tab').parent().
+      removeClass('active');
     $('#per_handedness').show();
     $('#per_height,#per_weight,#conclusions').hide();
   };
@@ -38,7 +39,8 @@ $(function() {
   var selectChartsByHeight = function(evt) {
     evt && evt.preventDefault();
     $('#per_height_tab').parent().addClass('active');
-    $('#per_handedness_tab,#per_weight_tab,#conclusions_tab').parent().removeClass('active');
+    $('#per_handedness_tab,#per_weight_tab,#conclusions_tab').parent().
+      removeClass('active');
     $('#per_height').show();
     $('#per_handedness,#per_weight,#conclusions').hide();
   };
@@ -47,7 +49,8 @@ $(function() {
   var selectChartsByWeight = function(evt) {
     evt && evt.preventDefault();
     $('#per_weight_tab').parent().addClass('active');
-    $('#per_handedness_tab,#per_height_tab,#conclusions_tab').parent().removeClass('active');
+    $('#per_handedness_tab,#per_height_tab,#conclusions_tab').parent().
+      removeClass('active');
     $('#per_weight').show();
     $('#per_handedness,#per_height,#conclusions').hide();
   };
@@ -56,7 +59,8 @@ $(function() {
   var selectConclusions = function(evt) {
     evt && evt.preventDefault();
     $('#conclusions_tab').parent().addClass('active');
-    $('#per_handedness_tab,#per_height_tab,#per_weight_tab').parent().removeClass('active');
+    $('#per_handedness_tab,#per_height_tab,#per_weight_tab').parent().
+      removeClass('active');
     $('#conclusions').show();
     $('#per_handedness,#per_height,#per_weight').hide();
   };
